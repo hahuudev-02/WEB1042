@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const soBiMat = Math.round(Math.random()*100)
+        alert(soBiMat)
+        while(true) {
+            var soNhap = Number(prompt('Mời nhập số: '))
+            if(soNhap == soBiMat) {
+                alert('Đã trúng thưởng')
+                break;
+            } else {
+                if(soNhap > soBiMat) {
+                    alert('Số bí mật nhỏ hơn số của bạn')
+                } else
+                alert('Số bí mật lớn hơn số của bạn')
+            }
+        }
+    </script>
+</body>
+</html>

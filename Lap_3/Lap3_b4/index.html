@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+           justify-content: center;
+        }
+
+        .row {
+            margin: 0 auto;
+            width: 276px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -6px;
+            margin-right: -6px;
+        }
+
+        .col {
+            padding-left: 6px;
+            padding-right: 6px;
+        } 
+        .l-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        .item {
+            height: 60px;         
+            background-color: antiquewhite;
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+           justify-content: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+            <div class="col l-3">
+                <div class="item">7</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">8</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">9</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">+</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">4</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">5</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">6</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">_</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">1</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">2</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">3</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">*</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">0</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">C</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">=</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">/</div>
+            </div>
+        </div>
+        <div class="conten">
+            <span class="result"> 9 * 9 = 18</span>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
